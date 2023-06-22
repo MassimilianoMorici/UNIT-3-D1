@@ -1,0 +1,80 @@
+/*1*/
+.jumbotron h1 {
+   color: brown;
+}
+
+/*2*/
+.nav :nth-child(n) {
+    color: aqua;
+}
+
+/*3*/
+.jumbotron a.font-weight-bold {
+    color: orange;
+}
+
+/*4*/
+main>.row>.blog-main>.blog-post:first-of-type   {
+    background-color: aqua;
+}
+
+/*5*/
+main>.row>.blog-main>.blog-post:first-of-type hr  {
+    background-color: rgb(255, 0, 0);
+}
+
+/*6*/
+.nav :nth-child(even) {
+    color: rgb(0, 255, 94);
+}
+
+
+
+/*7*/
+aside ol.list-unstyled.mb-0 {
+    background-color: blueviolet;
+}
+
+
+/*8*/
+main .blog-post:nth-of-type(2) {
+    background-color: rgb(0, 255, 21);
+}
+
+/*9*/
+main .blog-post:nth-of-type(3) ul :nth-child(2) {
+    background-color: rgb(0, 255, 21);
+}
+/* sinstassi deiversa ma stesso risultato, prendo però il terzo li */
+main .blog-post:nth-of-type(3)  li:nth-child(3) {
+    background-color: rgb(189, 131, 14);
+}
+
+/*10*/
+footer + a {
+    background-color: blueviolet;
+}
+
+/*11*/
+main div + nav :nth-child(2) {
+    background-color: pink !important;
+}
+
+/*12*/
+footer p :nth-child(2) {
+    background-color: yellow;
+}
+
+
+
+
+
+/* per js percorso per selezionare "twitter"
+aside div:nth-of-type(3) :nth-child(2) :nth-child(2) {
+    background-color: black;
+} 
+
+.jumbotron.p-4.p-md-5.rounded {
+    background-color: black !important;
+}
+*/
